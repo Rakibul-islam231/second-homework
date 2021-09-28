@@ -1,0 +1,534 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/**nav bar start**/
+#main-bg{
+    background: url(img/banner1.jpg);
+    height: 797px;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+#main-bg::before{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .6);
+    z-index: -1;
+}
+#manu-bar{
+    height: 90px;
+    width: 1627px;
+    margin: auto;
+    display: flex;
+}
+.logo{
+    height: 100%;
+    width: 30%;
+}
+.logo img{
+    padding: 35px 220px;
+}
+.manu{
+    height: 100%;
+    width: 60%;
+}
+.ico{
+    height: 100%;
+    width: 10%;
+}
+.manu ul{
+    list-style-type: none;
+    display: flex;
+    padding-left: 105px;
+}
+.manu ul li a{
+    font-size: 16px;
+    font-family: Lato, sans-serif;
+    color: #fff;
+    padding-right: 32px;
+    padding-top: 37px;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: .5s;
+}
+.manu ul li a:hover{
+    color: #ff508e;
+}
+.manu ul .home{
+    color: #ff508e !important;
+}
+.fa-customige{
+    font-size: 30px;
+    padding-top: 30px;
+    color: #fff;
+}
+
+#writeing h5{
+    font-size: 18px;
+    font-family: Lato, sans-serif;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 180px;
+    margin: 0px 0px 40px;
+}
+#writeing h2{
+    font-size: 70px;
+    font-family: Montserrat, sans-serif;
+    color: #fff;
+    text-align: center;
+    margin: 0px 0px 40px;
+}
+#writeing h2 span{
+    font-size: 18px;
+    font-family:  Montserrat, sans-serif;
+    color: #ff508e;
+    text-transform: capitalize;
+}
+#writeing p{
+    font-size: 18px;
+    font-family: Lato sans-serif;
+    color: #fff;
+    text-align: center;
+    margin: 0px 0px 40px;
+    padding: 0px 14px;
+}
+#writeing button{
+    height: 59px;
+    width: 223.34px;
+    border-radius: 25px;
+    margin-left: 44%;
+    border: 1px solid #fff;
+    background-color: inherit;
+    transition: 0.5s;
+}
+#writeing button:hover{
+    background-color: #ff508e;
+    border: 1px solid #ff508e;
+}
+#writeing button a{
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #fff;
+}
+/**nav bar end**/
+/**about part start**/
+#about{
+    margin-top: 115px;
+}
+.about_img-p-2{
+    background-color: rgb(241, 235, 235) !important;
+    height: 500px;
+    width: 500px;
+    border-radius: 10px;
+}
+.about_img.p-2 img{
+    padding: 20px;
+    padding-bottom: 10px !important;
+}
+.about_content{
+    margin-left: 50px;
+}
+.about_content h5{
+    font-size: 18px;
+    font-family: Montsernat, sans-serif;
+    color: #111135;
+    text-transform: uppercase;
+    margin: 0px 0px 35px;
+}
+.about_content h3{
+    font-size: 36px;
+    font-family: Montsernat, sans-serif;
+    color: #111135;
+    margin: 0px 0px 35px;
+}
+.about_content h3 span{
+    font-size: 36px;
+    font-family: Montsernat, sans-serif;
+    color: #ff508e;
+}
+.about_content h6{
+    font-size: 18px;
+    font-family: Montsernat, sans-serif;
+    color: #111135;
+    text-transform: uppercase;
+    margin: 0px 0px 35px;
+}
+.about_content p{
+    font-size: 16px;
+    font-family: Lato, sans-serif;
+    color: #565656;
+    margin: 0px 0px 15px;
+}
+#download{
+    height: 57px;
+    width: 180px;
+    background-color: #fff;
+    border-radius: 25px;
+    border: 0;
+}
+#download a{
+    text-decoration: none;
+    font-size: 16px;
+    font-family: Montserrat, sans-serif;
+    color: #000;
+}
+.about_btn button{
+    transition: 0.5s;
+}
+.about_btn button:hover{
+    background-color: #ff508e !important;
+    border: 0;
+}
+#print button a{
+    text-decoration: none;
+}
+.about_btn #print a{
+    text-decoration: none;
+    font-size: 16px;
+    font-family: Montserrat, sans-serif;
+    color: #000;
+    transition: 0.5s;
+}
+.about_btn #print{
+    height: 50px;
+    width: 100px;
+    margin-left: 5px;
+    border: 0;
+    position: relative;
+}
+.about_btn #print:hover{
+    position: absolute;
+    color: rgb(47, 47, 46) !important;
+}
+/**about part end**/
+
+/**my service start**/
+#my_service{
+    margin-top: 118px;
+    background-color: #f3f3f3;
+    height: 1267px;
+}
+.why_choose h5{
+    font-size: 18px;
+    font-family: Montserral, sans-serif;
+    color: #111135;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 120px;
+}
+.why_choose h2{
+    font-size: 36px;
+    font-family: Montserral, sans-serif;
+    color: #111135;
+    text-transform: capitalize;
+    text-align: center;
+    padding-top: 50px;
+}
+.why_choose hr{
+    height: 4px;
+    width: 145px;
+    background-color: #cfcccd;
+    align-items: center !important;
+    margin-left: 880px;
+}
+.main_card{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+.one_card{
+    height: 418px;
+    width: 370px !important;
+    margin-right: 30px;
+    border-radius: 15px;
+}
+.one_card img{
+    height: 40px;
+    width: 40px;
+    margin-left: 170px;
+    margin-top: 60px;
+}
+.card-body h4{
+    font-size: 24px;
+    font-family: Montserrat, sans-serif;
+    color: #111135;
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 35px;
+}
+.card-body a{
+    text-decoration: none;
+    font-size: 16px;
+    font-family: Mantserrat, sans-serif;
+    color: #565656;
+    display: inline-block;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+.card-body p{
+    font-size: 16px;
+    font-family: Animo, sans-serif;
+    color: #565656;
+    text-align: center;
+    line-height: 30px;
+    padding-top: 35px;
+}
+.main_card2{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+/** my service end**/
+
+/**skill part start**/
+#skill_part{
+    background: url(img/background.jpg);
+    background-position: fixed;
+    height: 500px;
+    width: 100%;
+    z-index: -2;
+}
+.video h5{
+    font-size: 18px;
+    font-family: Montserrat, sans-serif;
+    color: #ff508e;
+    text-transform: uppercase;
+    padding-left: 360px;
+    padding-top: 125px;
+}
+.video h4{
+    font-size: 24px;
+    font-family: Montserrat, sans-serif;
+    color: #fff;
+    padding-left: 360px;
+    padding-top: 25px;
+}
+.video p{
+    font-size: 16px;
+    font-family: Arimo, sans-serif;
+    color: #fff;
+    padding-left: 360px;
+    padding-top: 25px;
+}
+.main_skill{
+    display: flex;
+}
+.skill_item h5{
+    font-size: 16px;
+    font-family: Montserrat, sans-serif;
+    color: #fff;
+    padding-left: 350px;
+    padding-top: 125px;
+    text-transform: uppercase;
+    display: inline-block;
+}
+.skill_item span{
+     font-size: 16px;
+     font-family: Montserrat, sans-serif;
+     color: #fff;
+     padding-left: 365px;
+     display: inline-block;
+     position: relative;
+}
+.skill_one .skill_item span{
+    padding-left: 378px;
+}
+.skill_three .skill_item span{
+    padding-left: 268px;
+}
+.skill_two .skill_item h5{
+    padding-top: 40px;
+}
+.skill_three .skill_item h5{
+    padding-top: 40px;
+}
+/**skill part end**/
+/**normarl part start**/
+#normal_part{
+    height: 300px;
+    width: 100%;
+    background-color: #f3f3f3;
+}
+.normal_main{
+    height: 100%;
+    width: 1180px;
+    margin: auto;
+    display: flex;
+}
+.normal_one{
+    height: 100%;
+    width: 33%;
+    display: flex;
+}
+.normal_two{
+    height: 100%;
+    width: 34%;
+}
+.normal_three{
+    height: 100%;
+    width: 33%;
+}
+.normal_one img{
+    height: 36px;
+    width: 36px;
+    margin-top: 130px;
+    display: inline-block;
+}
+.normal_one p{
+    font-size: 16px;
+    font-family: Montserrat, sans-serif;
+    color: #000;
+    display: inline-block;
+    text-transform: uppercase;
+    padding-top: 120px;
+    padding-left: 20px;
+    line-height: 30px;
+}
+.normal_one span{
+    font-size: 36px;
+    font-family: Montserrat, sans-serif;
+    color: black;
+    padding-left: 20px;
+}
+.normal_onespa{
+    margin-top: 110px;
+}
+/**normal part end*/
+/**our gallery part start**/
+.main_gallery h5{
+    font-size: 18px;
+    font-family: Montserrat, sans-serif;
+    color: #ff508e;
+    padding-top: 120px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.main_gallery h2{
+    font-size: 36px;
+    font-family: Montserrat, sans-serif;
+    color: #111135;
+    text-transform: capitalize;
+    text-align: center;
+    padding-top: 35px;
+}
+.ancor{
+    width: 780px;
+    margin: auto;
+}
+.ancor button{
+    border: 0;
+    background-color: inherit;
+}
+.ancor a{
+    text-decoration: none;
+    padding-left: 17px;
+    justify-content: center;
+    display: inline-block;
+    font-size: 16px;
+    font-family: Montserrat, sans-serif;
+    color: #111135;
+    text-transform: uppercase;
+    padding-top: 60px;
+}
+.rsimg{
+    display: flex;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.rs_1{
+    background: url(img/women.png);
+    height: 517.89px;
+    width: 435.75px;
+    margin-left: 20px;
+    border-radius: 10px;
+    position: relative;
+}
+.rs_write{
+    height: 100px;
+    width: 270.48px;
+    background-color: #fff;
+    margin-top: 390px;
+    margin-left: 40px;
+    display: flex;
+}
+.rs_1 .rs_write h5{
+    font-size: 18px;
+    font-family: Montserrat, sans-serif;
+    color: #292929;
+    padding-top: 15px;
+    text-transform: uppercase;
+    padding-left: 10px;
+}
+.rs_1 .rs_write p{
+    font-size: 16px;
+    font-family: Montserrat, sans-serif;
+    color: #ff508e;
+    text-align: start;
+    padding-left: 10px;
+}
+
+.eye .peye{
+    height: 42px;
+    width: 45px;
+    background-color: #fff;
+    border-radius: 50px;
+    margin-left: 45px;
+    margin-top: 30px;
+    position: absolute;
+}
+.eye .peye .fa-custom{
+    padding-left: 12px;
+    padding-top: 12px;
+    color: #ff508e;
+}
+.rs_2{
+    background: url(img/tree.png);
+    height: 517.89px;
+    width: 435.75px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+.rs_3{
+    margin-left: 20px;
+    border-radius: 10px;
+}
+.rs_3 img{
+    height: 517.89px;
+    width: 880px;
+}
+.rsimg2{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.rsimg2 .rs_4{
+    margin-left: 20px;
+    border-radius: 10px;
+}
+.rsimg2 .rs_4 img{
+    height: 517.89px;
+    width: 880px;
+}
+.rsimg2 .rs_5{
+    background: url(img/hand.png);
+    height: 517.89px;
+    width: 435.75px;
+    margin-left: 470px;
+    border-radius: 10px;
+}
+.rsimg2 .rs_6{
+    background: url(img/men.png);
+    height: 517.89px;
+    width: 435.75px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+/**our gallery part end**/
